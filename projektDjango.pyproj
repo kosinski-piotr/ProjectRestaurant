@@ -47,12 +47,14 @@
     <Compile Include="restauracja\apps.py" />
     <Compile Include="restauracja\migrations\__init__.py" />
     <Compile Include="restauracja\models.py" />
+    <Compile Include="restauracja\serializers.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="restauracja\tests.py" />
     <Compile Include="restauracja\urls.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="restauracja\views.py" />
-    <Compile Include="restauracja\__init__.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="app\" />
