@@ -45,7 +45,9 @@
     <Compile Include="projektDjango\wsgi.py" />
     <Compile Include="restauracja\admin.py" />
     <Compile Include="restauracja\apps.py" />
-    <Compile Include="restauracja\migrations\__init__.py" />
+    <Compile Include="restauracja\custompagination.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="restauracja\models.py" />
     <Compile Include="restauracja\serializers.py">
       <SubType>Code</SubType>
